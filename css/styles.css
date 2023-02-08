@@ -1,0 +1,80 @@
+.container {
+  display: inline-block;
+
+}
+
+#grayscale:hover {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+#invert:hover {
+  -webkit-filter: invert(.9);
+  filter: invert(.9);
+}
+
+#brightness:hover {
+  -webkit-filter: brightness(.5);
+  filter: brightness(.5);
+}
+
+#saturation:hover {
+  -webkit-filter: saturate(6);
+  filter: saturate(6);
+}
+
+#sepia:hover {
+  -webkit-filter: sepia(1);
+  filter: sepia(1);
+}
+
+#blur:hover {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+#opacity:hover {
+  -webkit-filter: opacity(.5);
+  filter: opacity(.5);
+}
+
+#blur-hue:hover {
+  -webkit-filter: blur(5px) saturate(6);
+  filter: blur(5px) saturate(6);  
+}
+
+#blur-text:hover {
+ -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.container:hover > .hidden {
+ visibility: visible;
+ pointer-events: none;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+      width:100%;
+  }
+  thead {
+      display: none;
+  }
+  tr:nth-of-type(2n) {
+      background-color: inherit;
+  }
+  tr td:first-child {
+      background: #f0f0f0;
+      font-weight:bold;
+      font-size:1.3em;
+  }
+  tbody td {
+      display: block;
+      text-align:center;
+  }
+  tbody td:before {
+      content: attr(data-th);
+      display: block;
+      text-align:center;
+  }
+}
