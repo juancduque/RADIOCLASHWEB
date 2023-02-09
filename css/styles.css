@@ -10,6 +10,10 @@
 	width:inherit;
   }
 
+  .menuButOff {
+    filter:invert(1);
+  }
+
 
 
 body {
