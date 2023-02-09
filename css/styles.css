@@ -17,9 +17,8 @@ html {
   height: 100%
 }
 
-.container {
-  display: inline-block;
-
+.menuBut:hover {
+  filter: invert(100%) ;
 }
 
 nav {
@@ -32,6 +31,7 @@ justify-content: space-evenly;
 align-content:space-evenly;
 align-items: space-evenly;
 }
+
 @media only screen and (max-width: 800px) {
 
   #header{
@@ -42,50 +42,12 @@ align-items: space-evenly;
 }
 
 
-#grayscale:hover {
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
-}
-
 #invert:hover {
   -webkit-filter: invert(.9);
   filter: invert(.9);
 }
 
-#brightness:hover {
-  -webkit-filter: brightness(.5);
-  filter: brightness(.5);
-}
 
-#saturation:hover {
-  -webkit-filter: saturate(6);
-  filter: saturate(6);
-}
-
-#sepia:hover {
-  -webkit-filter: sepia(1);
-  filter: sepia(1);
-}
-
-#blur:hover {
-  -webkit-filter: blur(5px);
-  filter: blur(5px);
-}
-
-#opacity:hover {
-  -webkit-filter: opacity(.5);
-  filter: opacity(.5);
-}
-
-#blur-hue:hover {
-  -webkit-filter: blur(5px) saturate(6);
-  filter: blur(5px) saturate(6);  
-}
-
-#blur-text:hover {
- -webkit-filter: blur(5px);
-  filter: blur(5px);
-}
 
 .container:hover > .hidden {
  visibility: visible;
