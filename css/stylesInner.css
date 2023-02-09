@@ -1,3 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+
+form {
+	padding-left: 10%;
+	align-content: center;
+	color: aliceblue;
+	font-family: "Archivo Narrow", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 22px;
+	line-height: 8;
+	max-width: 600px;
+	overflow: auto;
+}
+article {
+	color: whitesmoke;
+	width: 100%;
+}
+
+p {
+	font-size: 30;
+}
+
+div {
+	align-self: center;
+}
+
+
+.container {
+  text-align: justify;
+  font-family:"Archivo Narrow", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-size: 21px;
+  margin: 25px;
+  width: 80%;
+  height: 200px;
+  /* Setup */
+  position:relative;
+margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+}
+
+
 @media only screen and (max-width: 780px) {
 
   }
