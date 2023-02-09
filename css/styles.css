@@ -8,6 +8,8 @@ header {
    display:flex;
    justify-content:center;
    align-items:center;
+  margin-block-start: 200px;
+  margin-block-end: 50px;
 }
 
 
