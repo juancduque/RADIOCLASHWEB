@@ -1,7 +1,16 @@
+@media only screen and (min-width: 768px) {
+	[class*="menuBut-"] {
+    width: 100%;
+	 filter: invert(100%);
+}
+	
+  /* For mobile phones: */
+
+
 body {
-  background-image:url("/images/radioclash.gif");
+  background-image:url("../images/radioclash.gif");
   background-repeat:repeat;
-  background-size: 100%;
+  background-size: auto;
 }
 header {
 	width:100%;
@@ -18,7 +27,12 @@ html {
 }
 
 .menuBut:hover {
-  filter: invert(100%) ;
+  filter: invert(100%);
+
+}
+
+.logo {width: auto;
+	height: auto;
 }
 
 nav {
