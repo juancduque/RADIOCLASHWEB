@@ -36,6 +36,7 @@ html {
 
 .logo {width: 500px;
 	height: auto;
+  align-self: center;
 }
 
 nav {
