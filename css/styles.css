@@ -15,7 +15,7 @@
 
 body {
   background-image:url("../images/radioclash.gif");
-  background-repeat:repeat;
+  background-repeat:round;
 background-size: contain;
 }
 header {
