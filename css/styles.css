@@ -33,6 +33,11 @@ align-content:space-evenly;
 align-items: space-evenly;
 }
 
+#logo-container img {
+  width: 100%;
+  height: auto;
+}
+
 #grayscale:hover {
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
