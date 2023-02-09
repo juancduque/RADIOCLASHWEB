@@ -34,9 +34,12 @@ html {
 }
 
 
-.logo {width: 500px;
+.logo {width:80%;
 	height: auto;
   align-self: center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
 
 nav {
