@@ -32,11 +32,15 @@ justify-content: space-evenly;
 align-content:space-evenly;
 align-items: space-evenly;
 }
+@media only screen and (max-width: 800px) {
 
-#logo-container img {
-  width: 100%;
-  height: auto;
+  #header{
+          width: 100%;
+          height: auto;
+          background-size: 100% auto !important;
+  }
 }
+
 
 #grayscale:hover {
   -webkit-filter: grayscale(1);
