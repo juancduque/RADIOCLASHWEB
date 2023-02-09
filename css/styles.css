@@ -1,16 +1,16 @@
 @media only screen and (max-width: 780px) {
 	[class*="menuBut-"] {
-    width: auto}
+    width: 100%}
   }
   #invert:hover {
     -webkit-filter: invert(.9);
     filter: invert(.9);
   }
   .menuBut-:hover {
-    filter: invert(100%);
-  
+    filter: invert(1);
+	width:inherit;
   }
-  /* For mobile phones: */
+
 
 
 body {
@@ -19,13 +19,13 @@ body {
 background-size: contain;
 }
 header {
-  width: 400px;;
+  width: 100%;
   height: auto;
   display:flex;
   justify-content:center;
   align-items:center;
- margin-block-start: 200px;
- margin-block-end: 50px;
+ margin-block-start: 20%;
+ margin-block-end: 5%px;
 }
 
 
@@ -45,8 +45,8 @@ html {
 nav {
 margin: 0 auto;
 padding: 50;
-width: 85%;
-height: 2em;
+width: auto;
+height: auto;
 display: flex;
 justify-content: space-evenly;
 align-content:space-evenly;
@@ -72,10 +72,9 @@ align-items: space-evenly;
 }
 
 .menuBut-:hover {
-  filter: invert(100%);
+  filter: invert(1);
   width: auto}
 
-/* For mobile phones: */
 
 
 body {
