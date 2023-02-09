@@ -1,9 +1,7 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 780px) {
 	[class*="menuBut-"] {
-    width: 100%;
-	 filter: invert(100%);
-}
-	
+    width: auto}
+
   /* For mobile phones: */
 
 
@@ -26,7 +24,7 @@ html {
   height: 100%
 }
 
-.menuBut:hover {
+.menuBut-:hover {
   filter: invert(100%);
 
 }
@@ -45,8 +43,11 @@ justify-content: space-evenly;
 align-content:space-evenly;
 align-items: space-evenly;
 }
+}
 
-@media only screen and (max-width: 800px) {
+
+
+@media only screen and (min-width: 800px) {
 
   #header{
           width: 100%;
@@ -66,30 +67,4 @@ align-items: space-evenly;
 .container:hover > .hidden {
  visibility: visible;
  pointer-events: none;
-}
-
-@media screen and (max-width: 600px) {
-  table {
-      width:100%;
-  }
-  thead {
-      display: none;
-  }
-  tr:nth-of-type(2n) {
-      background-color: inherit;
-  }
-  tr td:first-child {
-      background: #f0f0f0;
-      font-weight:bold;
-      font-size:1.3em;
-  }
-  tbody td {
-      display: block;
-      text-align:center;
-  }
-  tbody td:before {
-      content: attr(data-th);
-      display: block;
-      text-align:center;
-  }
 }
