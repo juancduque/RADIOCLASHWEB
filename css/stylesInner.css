@@ -64,12 +64,26 @@ margin-left: auto;
   margin-right: auto;
   line-height: 1.6;
 }
-}
+
 
 
 @media only screen and (max-width: 780px) {
 
+  span,img{
+    vertical-align: middle;
   }
+
+  .instaLogo> span,img.instaLogo > img{
+    vertical-align: middle;
+ }
+  
+  img.instaLogo {
+width: 20px;
+height: 20px;
+vertical-align: middle;
+  }
+
+  
   #invert:hover {
     -webkit-filter: invert(.9);
     filter: invert(.9);
@@ -125,10 +139,10 @@ align-content:space-evenly;
 align-items: space-evenly;
 }
 
+}
 
 
-
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 780px) {
 
   #header{
           width: auto;
