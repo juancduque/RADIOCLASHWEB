@@ -1,4 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+input[type=text] {
+  padding:10px;
+  border:0;
+  box-shadow:5 5 15px 4px rgba(0,0,0,0.06);
+}
+
+
+textarea {
+	min-width: 90%;
+	min-height: auto;
+}
+.submit {
+	padding: 6px;
+	border-radius: 10px;
+	font-family: "Archivo Narrow","Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+.rounded-input {
+	padding: 10px;
+	border-radius:10px;
+
+}
 
 form {
 	padding-left: 10%;
