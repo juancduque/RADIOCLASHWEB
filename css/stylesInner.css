@@ -17,16 +17,19 @@ article {
 
 p {
 	font-size: 30;
+	color: aliceblue;
 }
 
 div {
 	align-self: center;
+	color: aliceblue;
 }
 
 h1 {
   color: aliceblue;
 }
 .container {
+	color: aliceblue
   text-align: justify;
   font-family:"Archivo Narrow", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
   font-size: 21px;
