@@ -14,7 +14,8 @@
     filter:invert(1);
   }
 
-
+.fecha {
+    align:right;}
 
 body {
   background-image:url("../images/radioclash.gif");
@@ -68,7 +69,8 @@ align-items: space-evenly;
           background-size: 100% auto !important;
   }
 
-
+  .fecha {
+    align:right;}
 
 #invert:hover {
   -webkit-filter: invert(.9);
