@@ -6,9 +6,9 @@ form {
 	color: aliceblue;
 	font-family: "Archivo Narrow", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-size: 22px;
-	line-height: 8;
-	max-width: 600px;
-	overflow: auto;
+	line-height: 2;
+	max-width: 800px;
+	overflow: hidden;
 }
 article {
 	color: whitesmoke;
