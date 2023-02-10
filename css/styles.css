@@ -1,6 +1,21 @@
 @media only screen and (max-width: 780px) {
 
+  
+  span,img{
+    vertical-align: middle;
   }
+
+  .brand-logo > span,img.instaLogo > img{
+    vertical-align: middle;
+ }
+  
+  img.instaLogo {
+width: 20px;
+height: 20px;
+vertical-align: middle;
+  }
+  
+
   #invert:hover {
     -webkit-filter: invert(.9);
     filter: invert(.9);
@@ -13,9 +28,6 @@
   .menuButOff {
     filter:invert(1);
   }
-
-.fecha {
-    align:right;}
 
 body {
   background-image:url("../images/radioclash.gif");
@@ -36,6 +48,7 @@ header {
 html {
   height: 100%
 }
+
 
 
 .logo {width:100%;
@@ -59,9 +72,9 @@ align-items: space-evenly;
 }
 
 
+}
 
-
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 780px) {
 
   #header{
           width: auto;
@@ -69,8 +82,7 @@ align-items: space-evenly;
           background-size: 100% auto !important;
   }
 
-  .fecha {
-    align:right;}
+
 
 #invert:hover {
   -webkit-filter: invert(.9);
