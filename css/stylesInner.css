@@ -23,7 +23,9 @@ div {
 	align-self: center;
 }
 
-
+h1 {
+  color: aliceblue;
+}
 .container {
   text-align: justify;
   font-family:"Archivo Narrow", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
